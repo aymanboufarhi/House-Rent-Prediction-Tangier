@@ -1,4 +1,4 @@
-# House-Rent-Prediction
+# House Rent Prediction in Tangier
 Full-stack application for predicting house rental prices, built with Next.js and FastAPI.
 
 ## Scrapping Data
