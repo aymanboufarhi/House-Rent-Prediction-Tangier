@@ -10,6 +10,31 @@ Once the raw data was collected, I proceeded with the preprocessing steps. This 
 
 For model training, I experimented with several regression algorithms, including Linear Regression, K-Nearest Neighbors (KNN), and Random Forest. After evaluating the performance of these models, I selected Gradient Boosting with polynomial features as the final model due to its superior accuracy in predicting rental prices. The model was trained on the cleaned dataset and optimized for generalization.
 
+## Frontend
+The front-end of the rental price prediction project was developed using Next.js, a React framework for building dynamic web applications. The interface allows users to input property details, such as location, surface area, and number of rooms, and instantly receive a predicted rental price.
+
+I focused on creating a user-friendly and responsive design, ensuring the form fields and buttons are clear and easy to interact with. The interface was styled with custom CSS to match the MyDayf platform's color scheme, with a clean and professional layout. Additionally, the front end communicates with the backend API, developed using FastAPI, to send user input and retrieve predictions in real-time.
+
+When the user opens the website see this :
+
+![](readmepic/1.png)
 
 
+AboutUs Component :
 
+![](readmepic/2.png)
+
+
+Services Component :
+
+![](readmepic/3.png)
+
+
+Contact us Component and Navbar :
+
+![](readmepic/4.png)
+
+
+Prediction :
+
+![](readmepic/5.png)
