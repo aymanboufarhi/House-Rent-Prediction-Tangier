@@ -2,7 +2,7 @@
 Full-stack application for predicting house rental prices, built with Next.js and FastAPI.
 
 ## Scrapping Data
-For the rental price prediction project, I utilized web scraping to collect data from the Mubawab website, a real estate platform in Morocco. The data included essential features such as property location, surface area, number of rooms, and listed rental prices.
+For the rental price prediction project, I utilized web scraping to collect data from the [Mubawab website](https://www.mubawab.ma/fr/st/tanger/appartements-a-louer), a real estate platform in Morocco. The data included essential features such as property location, surface area, number of rooms, and listed rental prices.
 I used Python libraries like BeautifulSoup and Requests to automate the extraction of this data. After gathering the raw data, I performed cleaning operations to remove unwanted characters (e.g., \n, \t) and standardize the format. The cleaned data was then stored in CSV format and served as the dataset for further preprocessing and model training.
 
 ## Preprocessing and Training
